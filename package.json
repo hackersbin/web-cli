@@ -53,6 +53,7 @@
   },
   "repository": "hackersbin/web-cli",
   "scripts": {
+    "build":"node ./node_modules/typescript/lib/tsc.js",
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint . --ext .ts --config .eslintrc",
     "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
