@@ -1,12 +1,12 @@
 {
-  "name": "@oclif/example-multi-ts",
-  "description": "example multi-command CLI built with typescript",
-  "version": "1.10.7",
+  "name": "@hackersbin/web-cli",
+  "description": "web proxies servers and reverse http tools",
+  "version": "1.0.0",
   "author": "Jeff Dickey @jdxcode",
   "bin": {
     "example-multi-ts": "./bin/run"
   },
-  "bugs": "https://github.com/oclif/example-multi-ts/issues",
+  "bugs": "https://github.com/hackersbin/web-cli/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -38,9 +38,9 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/oclif/example-multi-ts",
+  "homepage": "https://github.com/hackersbin/web-cli",
   "keywords": [
-    "oclif"
+    "webcli"
   ],
   "license": "MIT",
   "main": "lib/index.js",
@@ -51,7 +51,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "oclif/example-multi-ts",
+  "repository": "hackersbin/web-cli",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint . --ext .ts --config .eslintrc",
